@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h2>
+          This isn't a real Duelist Kingdom tournament (so no need to wager your
+          Star Chips!), but we are looking for the world's finest duelists to
+          test our new digital arena. Fill out the information below to register
+          your Deck and claim your Duel Disk. It's time to duel!
+        </h2>
+        <form action="/" method="post">
+          <div class="label-container-row">
+            <div class="label-container">
+              <label for="first_name">FIRST NAME</label>
+              <input
+                type="text"
+                name="first_name"
+                placeholder="Ex: John"
+                required
+              />
+            </div>
+            <div class="label-container">
+              <label for="last_name">LAST NAME</label>
+              <input
+                type="text"
+                name="last_name"
+                placeholder="Ex: Doe"
+                required
+              />
+            </div>
+          </div>
+          <div class="label-container-row">
+            <div class="label-container">
+              <label for="email">EMAIL</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Ex:johndoe@example.com"
+                required
+              />
+            </div>
+            <div class="label-container">
+              <label for="number">PHONE NUMBER</label>
+              <input
+                type="tel"
+                name="number"
+                placeholder="(33) 9 1234-5678"
+                required
+              />
+            </div>
+          </div>
+          <div class="label-container-row">
+            <div class="label-container">
+              <label for="password">PASSWORD</label>
+              <input
+                class="password"
+                type="password"
+                name="password"
+                placeholder="********"
+                required
+              />
+            </div>
+            <div class="label-container">
+              <label for="confirm_password">CONFIRM PASSWORD</label>
+              <input
+                class="password"
+                type="password"
+                name="confirm_password"
+                placeholder="********"
+                required
+              />
+            </div>
+          </div>
+          <div class="account-container">
+            <button type="submit">IT'S TIME TO DUEL!</button>
+            <p>Already have an account? <span>Log in</span></p>
+          </div>
+        </form>
+      </div>
+      <div class="sidebar">
+        <img class="yugi-logo" src="./img/Yu-Gi-Oh!.png" alt="Yu-gi-oh! logo" />
+      </div>
+    </main>
+  </body>
+</html>
