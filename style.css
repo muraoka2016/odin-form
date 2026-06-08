@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-image: url(./img/form-bg-img.png);
   background-size: cover;
@@ -10,6 +13,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 100%;
+  min-height: 100vh;
 }
 form,
 input,
@@ -20,8 +24,8 @@ label,
 
 .container {
   display: flex;
-  padding: 50px;
-  gap: 10px;
+  padding: 40px 30px;
+  gap: 30px;
   flex-direction: column;
   background-color: rgba(46, 81, 196, 0.6);
   border-radius: 12px;
