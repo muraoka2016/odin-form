@@ -33,4 +33,4 @@ Here is a look at the final design of the registration page:
 - **Project Developer:** [Felipe Muraoka](https://github.com/muraoka2016)
 - **Background Artwork:** Massimiliano Princiotta (all rights reserved to the artist).
 - **Yu-Gi-Oh! Assets:** Franchise owned by Konami and Kazuki Takahashi.
-- **Education Platform:** [The Odin Project](https://www.theodinproject.com/) for the project guidelines.
+- **Education Platform:** [[The Odin Project](https://www.theodinproject.com/](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)) for the project guidelines.
